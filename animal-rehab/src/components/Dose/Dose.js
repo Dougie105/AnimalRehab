@@ -21,8 +21,8 @@ class Dose extends Component {
     }
 
     calculateVolumesToGive(dose, weight, dilution, pillStrength) {
-        const volumeToGive = (dose / 1000) * weight * dilution / pillStrength;
-        return String(volumeToGive);
+        const volumeToGive = (dose / 1000 * weight * dilution / pillStrength);
+        return String((volumeToGive).toFixed(3) +' cc');
     }
 
     handleChange = (e) => {

@@ -19,7 +19,7 @@
 		"id": 3,
 		"name": "Tramadol",
 		"type": "pain-reliever",
-		"dose": 4,
+		"dose": 2,
 		"pillStrength": 50,
 		"description": "Works synergestically with metacam"
 	},
